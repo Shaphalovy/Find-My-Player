@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00B0FF</color>
+    <color name="colorPrimaryDark">#2979FF</color>
+    <color name="colorAccent">#00B0FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="clouds">#ecf0f1</color>
+    <color name="silver">#bdc3c7</color>
+    <color name="concrete">#95a5a6</color>
+    <color name="asbestos">#7f8c8d</color>
+    <color name="black">#0F0F0F</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="darkLight">#1A2C3E50</color>
+    <color name="custom_header_text">#2979FF</color>
+    <color name="green">#05A248</color>
+    <color name="green_light">#00E261</color>
+</resources>

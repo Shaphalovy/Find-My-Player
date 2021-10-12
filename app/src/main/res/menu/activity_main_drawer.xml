@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_all_player"
+            android:icon="@drawable/all_player"
+            android:title="All Player" />
+        <item
+            android:id="@+id/nav_find_player"
+            android:icon="@drawable/search_people"
+            android:title="Find Player" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/event"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_news_feed"
+            android:icon="@drawable/newsfeed"
+            android:title="NewsFeed" />
+
+    </group>
+
+    <item android:title="App">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:icon="@drawable/about"
+                android:id="@+id/nav_about"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_exit"
+                android:title="Exit"
+                android:icon="@drawable/exit"
+                />
+            </group>
+        </menu>
+    </item>
+
+</menu>

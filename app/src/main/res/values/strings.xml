@@ -1,0 +1,179 @@
+<resources>
+    <string name="app_name">Find My Player</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="about_app"> Player can search other players and create events
+        to play alongside with another player is the main theme of this project.
+        Player can host events and hire others players.
+        If a player hires another player then that player will receive notification and can contact with him.
+        Player can see the news feed and will know about how many events are going on.</string>
+
+
+    <array name="sports">
+
+        <item>Cricket</item>
+        <item>Football</item>
+        <item>Kabaddi</item>
+        <item>Gollachhut</item>
+
+    </array>
+    <array name="cricket_player_type">
+
+        <item>Batsman</item>
+        <item>Bowler</item>
+        <item>Wicket-Keeper</item>
+        <item>Umpire</item>'
+
+    </array>
+
+    <array name="football_player_type">
+
+
+        <item>Striker</item>
+        <item>Mid-Fielder</item>
+        <item>Defender</item>
+        <item>Goal-Keeper</item>
+        <item>Referee</item>
+
+    </array>
+    <array name="gender_type">
+
+
+        <item>Male</item>
+        <item>Female</item>
+
+    </array>
+
+    <string name="forget_password_text">
+        Please enter your email to rest your password
+        An email will be sent to that email address
+        with a link to reset your password.</string>
+
+    <array name="location_array">
+        <item>Bagerhat</item>
+        <item>Barguna</item>
+        <item>Bandarban</item>
+        <item>Barisal</item>
+        <item>Bhola</item>
+        <item>Bogra</item>
+        <item>Brahmanbaria</item>
+        <item>Chandpur</item>
+        <item>Chapainawabganj</item>
+        <item>Chittagong</item>
+        <item>Chuadanga</item>
+        <item>Comilla</item>
+        <item>Cox s Bazar</item>
+        <item>Dhaka</item>
+        <item>Dinajpur</item>
+        <item>Faridpur</item>
+        <item>Feni</item>
+        <item>Gaibandha</item>
+        <item>Gazipur</item>
+        <item>Gopalganj</item>
+        <item>Habiganj</item>
+        <item>Jamalpur</item>
+        <item>Jessore</item>
+        <item>Jhalokati</item>
+        <item>Jhenaidah</item>
+        <item>Joypurhat</item>
+        <item>Khagrachhari</item>
+        <item>Khulna</item>
+        <item>Kishoreganj</item>
+        <item>Kurigram</item>
+        <item>Kushtia</item>
+        <item>Lakshmipur</item>
+        <item>Lalmonirhat</item>
+        <item>Madaripur</item>
+        <item>Magura</item>
+        <item>Manikganj</item>
+        <item>Meherpur</item>
+        <item>Moulvibazar</item>
+        <item>Munshiganj</item>
+        <item>Mymensingh</item>
+        <item>Naogaon</item>
+        <item>Narail</item>
+        <item>Natore</item>
+        <item>Narayanganj</item>
+        <item>Narsingdi</item>
+        <item>Netrokona</item>
+        <item>Noakhali</item>
+        <item>Nilphamari</item>
+        <item>Pabna</item>
+        <item>Patuakhali</item>
+        <item>Pirojpur</item>
+        <item>Panchagarh</item>
+        <item>Rangpur</item>
+        <item>Rangamati</item>
+        <item>Rajshahi</item>
+        <item>Rajbari</item>
+        <item>Satkhira</item>
+        <item>Shariatpur</item>
+        <item>Sherpur</item>
+        <item>Sunamganj</item>
+        <item>Sylhet</item>
+        <item>Sirajganj</item>
+        <item>Tangail</item>
+        <item>Thakurgaon</item>
+    </array>
+
+    <array name="dhaka_array">
+        <item>Adabar</item>
+        <item>Azampur</item>
+        <item>Badda</item>
+        <item>Bangsal</item>
+        <item>Bimanbandar</item>
+        <item>Cantonment</item>
+        <item>Chowkbazar</item>
+        <item>Darus Salam</item>
+        <item>Demra</item>
+        <item>Dhanmondi</item>
+        <item>Gendria</item>
+        <item>Gulshan</item>
+        <item>Hazaribagh</item>
+        <item>Kadamtali</item>
+        <item>Kafrul</item>
+        <item>Kalabagan</item>
+        <item>Kamrangirchar</item>
+        <item>Khilgoan</item>
+        <item>Khilkhet</item>
+        <item>Kotwali</item>
+        <item>Lalbagh</item>
+        <item>Mirpur</item>
+        <item>Mohammadpur</item>
+        <item>Motijheel</item>
+        <item>New Market</item>
+        <item>Pallabi</item>
+        <item>Paltal</item>
+        <item>Palthapath</item>
+        <item>Ramna</item>
+        <item>Rampura</item>
+        <item>Sabujbagh</item>
+        <item>Shahbag</item>
+        <item>Sher-e-Bangla Nagar</item>
+        <item>Shyampur</item>
+        <item>Sutrapur</item>
+        <item>Tejgoan</item>
+        <item>Turag</item>
+        <item>Uttar Khan</item>
+        <item>Uttara</item>
+        <item>Vatara</item>
+        <item>Wari</item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="event_description">Description: Match between mirpur1 and mirpur 2 will be happened</string>
+    <string name="history_hint">In only his second ODI against Sri Lanka in 1996, he blasted his way to a 37-ball century. For more than 17 years, it remained the fastest century in the ODI format before Corey Anderson broke the record in January 2014.</string>
+</resources>

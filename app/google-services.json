@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "965377689488",
+    "firebase_url": "https://find-my-player-eb561.firebaseio.com",
+    "project_id": "find-my-player-eb561",
+    "storage_bucket": "find-my-player-eb561.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965377689488:android:4535ffcc057d55652a9515",
+        "android_client_info": {
+          "package_name": "com.example.findmyplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965377689488-8l22d3fmcs7275a6kabdn6jpkg4f5eah.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.findmyplayer",
+            "certificate_hash": "73cd0fba79eb6e898b82ba9f256713a15362fc55"
+          }
+        },
+        {
+          "client_id": "965377689488-5g65eih8jaemg6r54jd27jf9dfokv7es.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgYGz24Z6wFc18M4QVpjzzS_WZyRvliXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965377689488-5g65eih8jaemg6r54jd27jf9dfokv7es.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

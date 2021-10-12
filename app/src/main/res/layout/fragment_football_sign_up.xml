@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FootballSignUpFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/balck_round_stoke"
+            android:padding="10dp"
+            android:text="SIGN UP"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/blue_button_background"
+            android:padding="10dp"
+            android:text="Football"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Category : "
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/football_rg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20sp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/goal_keeper_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Goal-Keeper" />
+
+            <RadioButton
+                android:id="@+id/striker_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Striker" />
+
+            <RadioButton
+                android:id="@+id/mid_fielder_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mid-Fielder" />
+
+            <RadioButton
+                android:id="@+id/defender_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Defender" />
+
+            <RadioButton
+                android:id="@+id/referee_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Referee" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Price : "
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/price_et"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/black_stoke"
+            android:gravity="center"
+            android:inputType="number"
+            android:hint="500"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Player History : "
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/history_et"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/black_stoke"
+            android:gravity="start"
+            android:hint="500 letter recommended"
+            android:padding="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Profile Picture : "
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_iv"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/profile_icon"
+                app:civ_border_color="#6D6D6D"
+                app:civ_border_width="2dp" />
+
+            <Button
+                android:id="@+id/upload_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/blue_button_background"
+                android:text="Upload"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/sign_up_btn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/blue_button_background"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</ScrollView>
